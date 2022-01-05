@@ -12,8 +12,14 @@ interface RepositoriesState {
 //   payload?: any;
 // }
 
+const initialState = {
+  loading: false,
+  error: null,
+  data: [],
+};
+
 const reducer = (
-  state: RepositoriesState,
+  state: RepositoriesState = initialState,
   action: Action
 ): RepositoriesState => {
   switch (action.type) {

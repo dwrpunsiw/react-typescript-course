@@ -21,8 +21,8 @@ import ReactDOM from "react-dom";
 //   );
 // };
 
-const App = () => {
-  return <div></div>;
-};
+// Section 4
+
+import App from "./Section-4/components/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
